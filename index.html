@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/fontello-codes.css">
+    <link rel="stylesheet" href="css/fontello-embedded.css">
+    <link rel="stylesheet" href="css/fontello-ie7-codes.css">
+    <link rel="stylesheet" href="css/fontello-ie7.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <title>صفحه وب با تصویر پس زمینه ریسپانسیو</title>
+    <style>
+      body {
+        background-image: url("چرم.jpg.png");
+        background-size: cover;
+        background-size: 100%;
+        color: white;
+      }
+      header {
+      height: 100px;
+      width: 100%;
+      text-align: center;
+    }
+
+        .logo {
+            width: 900px;
+            height: 600px;
+        }
+
+        h1 {
+        font-size: 72px;
+        }
+
+        h2 {
+        font-size: 68px;
+        }
+        a {
+        text-decoration: none;
+        font-size: 100px;
+        color: rgb(255, 255, 255);
+        }
+
+        a:hover {
+        text-decoration: underline;
+        }
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
+
+        li {
+        display: inline-block;
+        margin-right: 40px;
+        }
+        i {
+        font-size: 70px;
+        }
+
+    </style>
+    <script>
+        function openNumber(number) {
+  var url = "tel:" + number;
+  window.open(url);
+}
+
+$("a[href^='tel:']").click(function() {
+  openNumber($(this).attr("href"));
+  return false;
+});
+
+    </script>
+  </head>
+  <body>
+    <center>
+    <img src="f-zarin.png" alt="لوگوی سایت" class="logo">
+    <h1>در حال بروز رسانی وبسایت هستیم</h1>
+    <h2>از شکیبایی شما ممنونیم</h2>
+    <h2>:برای سفارشات با ما در تماس باشید</h2>
+    <p>!روی شماره کلیک کنید تا تماس برقرار شود</p>
+    <a href="tel:+983131307257"><span class="icon-phone-squared"></span>031-31307257</a>
+    <h1>:با ما در شبکه های اجتماعی همراه باشید</h1>
+    <div style="height: 30px;"></div>
+
+    <ul>
+        <li><a href="#"><i class="icon-eitaa"></i><i>ایتا</i></a></li>
+        <li><a href="#"><i class="icon-bale"></i><i>بله</i></a></li>
+        <li><a href="#"><i class="icon-rubika"></i><i>روبیکا</i></a></li>
+    </ul>
+    <div style="height: 100px;"></div>
+    <ul>
+        <li><a href="#"><i class="icon-telegram"></i><i>تلگرام</i></a></li>
+        <li><a href="#"><i class="icon-whatsapp"></i><i>واتساپ</i></a></li>
+        <li><a href="#"><i class="icon-instagram"></i><i>اینستاگرام</i></a></li>
+    </ul>
+    <div style="height: 200px;"></div>
+    <p style="font-size: 25px;">اصفهان، شهرک زاینده رود، بلوار گلها:<span class="icon-location"></span></p>
+</center>
+</body>
+</html>
