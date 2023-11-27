@@ -9,38 +9,37 @@
     <title>صفحه وب با تصویر پس زمینه ریسپانسیو</title>
     <style>
       body {
-        background-image: url("چرم.jpg.png");
+        background-color: rgb(48, 47, 47);
         background-size: cover;
         background-size: 100%;
-        color: white;
+        color: #e2bb58;
       }
-      header {
-      height: 100px;
-      width: 100%;
-      text-align: center;
-    }
-
-        .logo {
-            width: 900px;
-            height: 600px;
-        }
-
+      .logo{
+        font-size: 750px;
+      }
+      .logo :hover{
+        color: bisque;
+      }
         h1 {
         font-size: 72px;
         }
-
+        h1  :hover{
+        color: bisque;
+      }
         h2 {
         font-size: 68px;
         }
+       h2  :hover{
+        color: bisque;
+      }
         a {
         text-decoration: none;
         font-size: 100px;
-        color: rgb(255, 255, 255);
+        color: #e2bb58;
         }
-
-        a:hover {
-        text-decoration: underline;
-        }
+        a :hover{
+        color: bisque;
+      }
         ul {
         list-style-type: none;
         margin: 0;
@@ -51,9 +50,15 @@
         display: inline-block;
         margin-right: 40px;
         }
+        li  :hover{
+        color: bisque;
+      }
         i {
         font-size: 70px;
         }
+        i  :hover{
+        color: bisque;
+      }
 
     </style>
     <script>
@@ -71,8 +76,8 @@ $("a[href^='tel:']").click(function() {
   </head>
   <body>
     <center>
-    <img src="f-zarin.png" alt="لوگوی سایت" class="logo">
-    <h1>در حال بروز رسانی وبسایت هستیم</h1>
+    <span class="logo"><span class="icon-fanavardev-logo-web"></span></span>
+      <h1>در حال بروز رسانی وبسایت هستیم</h1>
     <h2>از شکیبایی شما ممنونیم</h2>
     <h2>:برای سفارشات با ما در تماس باشید</h2>
     <p>!روی شماره کلیک کنید تا تماس برقرار شود</p>
@@ -93,6 +98,7 @@ $("a[href^='tel:']").click(function() {
     </ul>
     <div style="height: 200px;"></div>
     <p style="font-size: 25px;">اصفهان، شهرک زاینده رود، بلوار گلها:<span class="icon-location"></span></p>
+    <p><span class="icon-fanavardev-logo-web"></span></p>
 </center>
 </body>
 </html>
